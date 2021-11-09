@@ -1,0 +1,156 @@
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  max-width: 1440px;
+  max-height: 800px;
+  bottom: 0;
+  background: linear-gradient(135deg, white, #fff5f5);
+}
+
+.background {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 830px 610px;
+      grid-template-columns: 830px 610px;
+  position: absolute;
+}
+
+.background .pink {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.background .girl {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 500px;
+  height: 650px;
+  left: 160px;
+  color: #ce9797;
+}
+
+.main .logo {
+  margin-top: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main p {
+  width: 440px;
+  line-height: 200%;
+  margin-bottom: 90px;
+}
+
+.input_container {
+  position: absolute;
+}
+
+input {
+  border-radius: 30px;
+  height: 50px;
+  width: 450px;
+  position: absolute;
+  border-color: #ce9797;
+  border-width: .5px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  position: relative;
+  border-radius: 30px;
+  left: 350px;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  cursor: pointer;
+}
+
+button :active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 120%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: lighter;
+}
+
+.hTwo {
+  color: #413a3a;
+  font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ce9797;
+}
+
+:-ms-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ce9797;
+}
+
+::-ms-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ce9797;
+}
+
+::placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ce9797;
+}
+
+.warning {
+  color: #f96262;
+  -webkit-transform: translate(175px, 10px);
+          transform: translate(175px, 10px);
+}
+/*# sourceMappingURL=style.css.map */

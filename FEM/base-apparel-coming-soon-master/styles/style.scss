@@ -1,0 +1,117 @@
+$red1: hsl(0, 36%, 70%);
+$red2: hsl(0, 93%, 68%);
+$neutral: hsl(0, 6%, 24%);
+@import "mobile";
+
+html {
+    font-size: 62.5%;
+    
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    max-width: 1440px;
+    max-height: 800px;
+    bottom: 0;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+
+
+}
+.background {
+    display: grid; 
+    grid-template-columns: 830px 610px;
+    position: absolute;
+    .pink {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .girl {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+} 
+.main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    height: 650px;
+    left: 160px;
+    color: $red1;
+    .logo {
+        margin-top: 50px;
+        flex: 1;
+    }
+    p {  
+        
+        width: 440px;
+        line-height: 200%;
+        margin-bottom: 90px;
+    }
+
+}
+.input_container {
+    position: absolute;
+}
+input {
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    position: absolute;
+    border-color: $red1;
+    border-width: .5px;
+   
+}
+button { 
+    height: 50px;
+    width: 100px;
+    position: relative;
+    border-radius: 30px;
+    left: 350px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    //border-color: $red1;
+    //border-width: .5px;
+    border: none;
+    cursor: pointer;
+    :active {
+        transform: translateY(3px);
+        
+    }
+    
+}
+.arrow { 
+    //position: relative;
+    //top: 10px;
+    //left: 290px;
+    cursor: pointer;
+}
+h1 {
+       
+       font-size: 6rem;
+       line-height: 120%;
+       text-transform: uppercase;
+       letter-spacing: 10px;
+       font-weight: lighter;
+       
+    }
+.hTwo {
+    color: $neutral;
+    font-weight: bolder;
+}
+::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    color: $red1;
+}
+.warning {
+    color: $red2;
+    transform: translate(175px, 10px);
+    
+}
