@@ -3,18 +3,24 @@
 // The `input` field is empty
 //- The email address is not formatted correctly
 const button = document.querySelector(".button");
-var input = document.querySelector(".input").value;
 const inputB = document.querySelector(".input");
+const input1 = document.querySelector(".input");
 
 
 button.addEventListener("click", function() {
+var input = document.querySelector(".input").value;
     if (input.indexOf('.com') >= 0 && input.indexOf('@') >= 0) {
         console.log(input);
-        input = '';
-    } else {
+    } 
+    else {
         inputB.style.backgroundColor = "hsl(0, 93%, 68%)";
         document.querySelector(".warning").style.display = '';
-        input = '';
-    }
+        
+         }
+    
 })
-
+input1.addEventListener("click", function() {
+   
+    inputB.style.backgroundColor = "";
+    document.querySelector(".warning").style.display = 'none';
+})
