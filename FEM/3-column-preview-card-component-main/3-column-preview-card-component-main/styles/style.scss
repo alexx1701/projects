@@ -1,0 +1,129 @@
+/* SCSS HEX */
+$charcoal: #264653ff;
+$persian-green: #2a9d8fff;
+$orange-yellow-crayola: #e9c46aff;
+$sandy-brown: #f4a261ff;
+$burnt-sienna: #e76f51ff;
+//font-family: 'Lexend Deca', sans-serif;
+//font-family: 'Big Shoulders Display', cursive;
+html {
+    font-size: 62.5%; //1 rem 10 px
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    background-color: $charcoal;
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.panel {
+    
+    
+    height: 500px;
+    //display: grid;
+    //grid-template-columns: [tank] 305px [dps] 305px [healer] 305px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.tankwhole {
+    display: flex;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    background-color: $persian-green;
+    height: 500px;
+    width: 305px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid white 1px;
+    border-right: 1px;
+}
+.dpswhole {
+    display: flex;
+    background-color: $sandy-brown;
+    width: 305px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid white 1px;
+    border-right: 1px;
+    
+}
+.hwhole {
+    display: flex;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    background-color: $burnt-sienna;
+    width: 305px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid white 1px;
+}
+p {
+    font-size: 1.5rem;
+    height: 150px;
+    transform: translateY(-40px);
+    line-height: 25px;
+    color: black;
+    
+    
+}
+span {
+    font-size: 3rem;
+    font-family: 'Big Shoulders Display', cursive;
+    //padding-left: 50px;
+    transform: translateY(-25px);
+    position: static;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+img { 
+    height: 60px;
+    width: 60px;
+    //transform: translateX(25px);
+    border: white solid;
+    border-radius: 50%;
+    border-width: 1.5px;
+    background-color: white;
+}
+/*.button-container {
+    width: 200px;
+    height: 50px;
+    button {
+        height: 50px;
+        width: 150px;
+        border-radius: 30%;
+        border: none;
+    }
+}*/
+button {
+    width: 150px;
+    border: solid white 2px;
+    border-radius: 30px;
+    height: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    
+}
+button:hover {
+    
+    color: white;
+    cursor: pointer;
+    border: solid white 2px;
+    background-color: transparent;
+}

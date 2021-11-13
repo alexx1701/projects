@@ -1,0 +1,150 @@
+/* SCSS HEX */
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #264653ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tankwhole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  background-color: #2a9d8fff;
+  height: 500px;
+  width: 305px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: solid white 1px;
+  border-right: 1px;
+}
+
+.dpswhole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f4a261ff;
+  width: 305px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: solid white 1px;
+  border-right: 1px;
+}
+
+.hwhole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  background-color: #e76f51ff;
+  width: 305px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: solid white 1px;
+}
+
+p {
+  font-size: 1.5rem;
+  height: 150px;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+  line-height: 25px;
+  color: black;
+}
+
+span {
+  font-size: 3rem;
+  font-family: 'Big Shoulders Display', cursive;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+  position: static;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  border: white solid;
+  border-radius: 50%;
+  border-width: 1.5px;
+  background-color: white;
+}
+
+/*.button-container {
+    width: 200px;
+    height: 50px;
+    button {
+        height: 50px;
+        width: 150px;
+        border-radius: 30%;
+        border: none;
+    }
+}*/
+button {
+  width: 150px;
+  border: solid white 2px;
+  border-radius: 30px;
+  height: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: white;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+  border: solid white 2px;
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
